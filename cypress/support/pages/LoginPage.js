@@ -18,8 +18,8 @@ const el = {
     }
   
     clicarEntrar(){
-        cy.xpath("//input[@value='Entrar']").click()
+        cy.xpath("//input[@value='Entrar']").should("be.visible").click()
     }
-  
+
   }
   export default new LoginPage()
