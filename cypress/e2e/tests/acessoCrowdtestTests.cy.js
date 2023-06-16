@@ -52,7 +52,7 @@ describe('loginMantis', ()=>{
 
         var summary = faker.lorem.lines(1);
         var description = faker.lorem.lines(2)
-        var descriptionP = description
+
 
         createTaskPage.fillSummary(summary);
         createTaskPage.fillDescription(description);
