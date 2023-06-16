@@ -17,7 +17,7 @@ describe('logged in user', () => {
        cy.logout()
     });
 
-    it('Click on Menu', ()=>{
+    it('Logout Test', ()=>{
            
         var username = Cypress.config('username')
         var password = Cypress.config('password')
