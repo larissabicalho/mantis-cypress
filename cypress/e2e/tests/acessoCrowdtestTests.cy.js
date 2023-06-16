@@ -1,51 +1,89 @@
 ///<reference types="Cypress"/>
 
-//Import de Page
+
 import loginPage from '../../support/pages/LoginPage.js';
 import homePage from '../../support/pages/HomePage.js';
-import resumoPage from '../../support/pages/ResumoPage.js';
-import registroPage from '../../support/pages/RegistroPage.js';
+import registryPage from '../../support/pages/RegistryPage.js';
+import createTaskPage from '../../support/pages/CreateTasksPage.js';
 
-//teste de um mesmo grupo podem ficar dentro de um describe
-describe('loginCrowdTest', ()=>{
-    
-    //uso o beforeEach p este iniciar antes de cada teste (it)
+import { faker } from '@faker-js/faker';
+
+describe('loginMantis', ()=>{
+
+
     beforeEach(()=>{
-        //cy.visit(Cypress.config('url')) 
+   
          cy.visit('http://127.0.0.1:8989') 
     })
 
-    it('Clicar no Menu', ()=>{
-        //Parametros (Arrange)
+    it('Sucessfull Login', ()=>{
+      
         var username = Cypress.config('username')
-        var senha = Cypress.config('senha')
-     
-        //Uso dos métodos das classes de Page (Acts)
-        loginPage.preencherUser(username)
-        loginPage.clicarLogar()
-        loginPage.preencherSenha(senha)
-        loginPage.clicarEntrar()
+        var password = Cypress.config('password')
+        var expectedText = "administrator"
 
-        homePage.clicarIcone()      
-        
-    })
+      
+        loginPage.fillUser(username)
+        loginPage.clickLogin()
+        loginPage.fillPassword(password)
+        loginPage.clickEnter()
 
-    it('Clicar em Registro', ()=>{
-        //Parametros (Arrange)
-        var username = Cypress.config('username')
-        var senha = Cypress.config('senha')
-        var expectedTextRegistro = "Nenhum registro de mudança disponível. Apenas tarefas que indiquem a versão na qual foi resolvida aparecerão nos registros de mudança."
     
-        //Uso dos métodos das classes de Page (Acts)
-        loginPage.preencherUser(username)
-        loginPage.clicarLogar()
-        loginPage.preencherSenha(senha)
-        loginPage.clicarEntrar()
+        cy.wait(5000) 
 
-        homePage.clicarRegistro()
+       
+        homePage.validateTitleHome(expectedText);   
+    })
 
-        registroPage.validarRegistro(expectedTextRegistro)
+    it('Create Task', ()=>{
+       
+        var username = Cypress.config('username')
+        var password = Cypress.config('password')
+        var expectedText = "Operação realizada com sucesso."
+    
+       
+        loginPage.fillUser(username)
+        loginPage.clickLogin()
+        loginPage.fillPassword(password)
+        loginPage.clickEnter()
+     
+        homePage.clickViewTasks(); 
+        createTaskPage.clickSelectProject();
+
+        var summary = faker.lorem.lines(1);
+        var description = faker.lorem.lines(2)
+        var descriptionP = description
+
+        createTaskPage.fillSummary(summary);
+        createTaskPage.fillDescription(description);
+        createTaskPage.clickNewTask()
+        createTaskPage.validateTask(expectedText)
+
+
+    })
+
+   
+	
+	 it('Click in Registration', ()=>{
+       
+        var expectedTextRegistro = "Nenhum registro de mudança disponível. Apenas tarefas que indiquem a versão na qual foi resolvida aparecerão nos registros de mudança."
+        var username = Cypress.config('username')
+        var password = Cypress.config('password')
+        
+           
+        loginPage.fillUser(username)
+        loginPage.clickLogin()
+        loginPage.fillPassword(password)
+        loginPage.clickEnter()
+
+        homePage.clickIcon() 
+       
+
+        homePage.clickRegistration()
+
+        registryPage.validateRegistration(expectedTextRegistro)
         
         
     })
+
 })

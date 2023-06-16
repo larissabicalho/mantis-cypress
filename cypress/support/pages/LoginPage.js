@@ -1,25 +1,25 @@
 const el = {
     usernameField: '#username',
-    senhaField:'#password',
-    logarButton: '.width-40'
+    passwordField:'#password',
+    logButton: '.width-40'
   }
   class LoginPage {
   
-    preencherUser(username){
-        cy.get(el.usernameField).type(username)
-    }
-  
-    preencherSenha(senha){
-        cy.get(el.senhaField).type(senha)
-    }
-  // utilizar force true
-    clicarLogar(){
-        cy.get(el.logarButton).click({force:true})
-    }
-  
-    clicarEntrar(){
-        cy.xpath("//input[@value='Entrar']").should("be.visible").click()
-    }
+fillUser(username){
+   cy.get(el.usernameField).type(username)
+}
 
-  }
+fillPassword(password){
+    cy.get(el.passwordField).type(password)
+}
+
+clickLogin(){
+    cy.get(el.logButton).click({force:true})
+}
+
+clickEnter(){
+    cy.xpath("//input[@value='Entrar']").should("be.visible").click()
+ }
+
+}
   export default new LoginPage()

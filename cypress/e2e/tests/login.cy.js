@@ -8,23 +8,25 @@ Cypress.Commands.add('logout', () => {
 
 describe('logged in user', () => {
   beforeEach(()=>{
-    //cy.visit(Cypress.config('url')) 
+  
      cy.visit(Cypress.config('url')) 
   })
+
+
    afterEach(() => {
        cy.logout()
     });
 
-    it('Clicar no Menu', ()=>{
-        //Parametros (Arrange)
+    it('Click on Menu', ()=>{
+           
         var username = Cypress.config('username')
-        var senha = Cypress.config('senha')
-     
-        //Uso dos métodos das classes de Page (Acts)
-        loginPage.preencherUser(username)
-        loginPage.clicarLogar()
-        loginPage.preencherSenha(senha)
-        loginPage.clicarEntrar()      
+        var password = Cypress.config('password')
+      
+      
+        loginPage.fillUser(username)
+        loginPage.clickLogin()
+        loginPage.fillPassword(password)
+        loginPage.clickEnter()    
       
     })  
         
