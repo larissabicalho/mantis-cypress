@@ -74,10 +74,6 @@ After filling in, click on **Login/Continue** and wait for processing.
 
 The first access must be done using *administrator/root* credentials. Reset the password to *administrator* or another easy-to-remember value.
 
-  
-
-## ![8image](https://user-images.githubusercontent.com/22267601/151831055-61a9cacb-33cd-449b-bfca-82b6d4004caa.png)
-
 To access the Mantis database (MariaDB) follow the steps below:
 
 1. Download and install [HeidiSQL software](https://www.heidisql.com/download.php)
