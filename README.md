@@ -4,6 +4,8 @@
 The purpose of this code is to perform end-to-end tests with Smells found in the table below and 8 smells(Organizing Tests, Logging In, Controlling State, Selecting Elements, Assigning Return Values
 Visiting External Sites, Using after Or afterEach Hooks, Unnecessary Waiting, Web Servers and Setting a Global baseUrl) are documented at https://docs.cypress.io/guides/references/best-practices
 
+https://github.com/larissabicalho/mantis-cypress/blob/20a5b03ce5e40a7a95272b02d8ca438b6103e4fe/smells.png
+
 ## Cypress Installation
 
 To carry out the script, configure your environment as follows:
