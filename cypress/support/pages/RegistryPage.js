@@ -6,9 +6,9 @@ const el = {
 class RegistryPage {
 
 
-validateRegistration(param){
-  cy.get(el.logOfChanges).invoke('text').should('include', param);
-}
+  validateRegistration(param) {
+    cy.get(el.logOfChanges).invoke('text').should('include', param);
+  }
 
 
 }
