@@ -52,3 +52,40 @@ The docker-compose file stay in reposi
 10. The Docker Desktop application will display the active containers as shown in the image:
 
 ![](https://i.imgur.com/tZfGGiZ.png)
+
+
+**Step 3:** 
+
+Make your first access to Mantis at http://127.0.0.1:8989
+
+After accessing, it will be necessary to configure the database according to the table and values below:
+
+| Variable | Value |
+|-----|------|
+| Type of Database | MySQL Improved |
+| Hostname (for Database Server) | mantis_db_1 |
+| Username (for Database) | mantisbt |
+| Password (for Database) | mantisbt |
+| Database name (for Database) | bugtracker |
+| Admin Username (to create Database if required) | root |
+| Admin Password (to create Database if required) | root |
+
+After filling in, click on **Login/Continue** and wait for processing.
+
+The first access must be done using *administrator/root* credentials. Reset the password to *administrator* or another easy-to-remember value.
+
+  
+
+## ![8image](https://user-images.githubusercontent.com/22267601/151831055-61a9cacb-33cd-449b-bfca-82b6d4004caa.png)
+
+To access the Mantis database (MariaDB) follow the steps below:
+
+1. Download and install [HeidiSQL software](https://www.heidisql.com/download.php)
+
+2. When opening the Session Manager, fill in the values below:
+
+![](https://i.imgur.com/AhKMxvu.png)
+
+3. Open the connection and you can check all tables and records:
+
+![](https://i.imgur.com/EnYk6Md.png)
