@@ -1,5 +1,5 @@
 
-# Testes End-to-End usando Cypress with Smell
+# Testes End-to-End using Cypress with Smell
 
 The purpose of this code is to perform end-to-end tests, in this case 6 tests with Smells found in the table below and 8 smells(Organizing Tests, Logging In, Controlling State, Selecting Elements, Assigning Return Values
 Visiting External Sites, Using after Or afterEach Hooks, Unnecessary Waiting, Web Servers and Setting a Global baseUrl) are documented at https://docs.cypress.io/guides/references/best-practices. In total 28 smells
