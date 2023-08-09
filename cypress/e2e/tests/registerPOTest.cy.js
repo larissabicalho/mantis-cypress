@@ -1,5 +1,9 @@
-describe('Mantis test', () => {
 
+import registryPage from '../../support/pages/RegistryPage.js';
+
+describe('Mantis test', () => {
+  
+   
    const expectedText = {
       register: "No Change Log information available.  Issues are included once projects have versions and issues are resolved with \"fixed in version\" set."
    };
@@ -19,7 +23,7 @@ describe('Mantis test', () => {
 
       cy.get(':nth-child(4) > a > .menu-text').click();
 
-      registrationPage.validateRegistration(expectedText.register);
+      registryPage.validateRegistration(expectedText.register);
 
    })
 

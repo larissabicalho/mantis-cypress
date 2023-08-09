@@ -1,3 +1,4 @@
+///<reference types="Cypress"/>
 class RegistryPage {
 
   selectors = {
@@ -5,7 +6,7 @@ class RegistryPage {
   }
 
   validateRegistration(param) {
-    cy.get(RegistryPage.selectors.logOfChanges).invoke('text').should('include', param);
+    cy.get(this.selectors.logOfChanges).invoke('text').should('include', param);
   }
 
 }

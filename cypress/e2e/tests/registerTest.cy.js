@@ -9,7 +9,7 @@ describe('Mantis test', () => {
       const username = Cypress.config('username');
       const password = Cypress.config('password');
 
-      cy.visit(Cypress.config('baseUrl') + '/login_page.php');
+      cy.visit(Cypress.config('baseUrl') + Cypress.env('loginUrl'), { failOnStatusCode: false });
 	  
       
       cy.get('[id="username"]').type(username);

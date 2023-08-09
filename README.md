@@ -72,7 +72,9 @@ After accessing, it will be necessary to configure the database according to the
 
 After filling in, click on **Login/Continue** and wait for processing.
 
-The first access must be done using *administrator/root* credentials. Reset the password to *administrator* or another easy-to-remember value.
+The first access must be done using *administrator/root* credentials. Reset the password to *administrator* or another easy-to-remember value. 
+
+If you need change language click username -> my account -> preferences -> language -> update prefs 
 
 To access the Mantis database (MariaDB) follow the steps below:
 
