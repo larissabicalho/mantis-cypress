@@ -1,4 +1,3 @@
-///<reference types="Cypress"/>
 
 describe('Tests With External URL', () => {
 

@@ -1,15 +1,12 @@
-
-const el = {
-  logOfChanges: '.lead'
-}
-
 class RegistryPage {
 
-
-  validateRegistration(param) {
-    cy.get(el.logOfChanges).invoke('text').should('include', param);
+  selectors = {
+    logOfChanges: '.lead'
   }
 
+  validateRegistration(param) {
+    cy.get(RegistryPage.selectors.logOfChanges).invoke('text').should('include', param);
+  }
 
 }
 
