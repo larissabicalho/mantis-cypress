@@ -12,7 +12,7 @@ describe('TEST', () => {
       const baseUrl = Cypress.config('baseUrl');
     
 
-      cy.visit(baseUrl);
+      cy.visit(Cypress.config('baseUrl') + Cypress.env('loginUrl'), { failOnStatusCode: false });
 
       cy.get('[id="username"]').type(username);
       cy.get('input[type="submit"]').click();

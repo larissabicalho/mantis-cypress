@@ -1,20 +1,15 @@
+describe('Mantis test', () => {
 
-import {
-   faker
-} from '@faker-js/faker';
-
-
-describe('Project', () => {
-
-
-   it('Create Project',  { tags: '@smoke' }, () => {
+   it('Manage Test', { tags: '@smoke' } ,  () => {
 
       const username = Cypress.config('username');
       const password = Cypress.config('password');
-      
+
+      const name = "User Larissa Project Custom";
+      const description = "Test Description Automation LARISSA Project";
+      const nameP = name;
 
       cy.visit(Cypress.config('baseUrl') + Cypress.env('loginUrl'), { failOnStatusCode: false });
-
 
       cy.get('[id="username"]').type(username);
       cy.get('input[type="submit"]').click();
@@ -22,13 +17,9 @@ describe('Project', () => {
       cy.get('input[type="submit"]').click();
 
       cy.get(':nth-child(7) > a > .menu-text').click();
-
+ 
       cy.get('a[href="/manage_proj_page.php"]').click();
    
-    
-      const name = faker.name.jobTitle();
-      const description = faker.lorem.lines(2);
-      const nameP = name;
 
       cy.xpath('//button[@type="submit" and text()="Create New Project"]').click();
 
@@ -37,9 +28,11 @@ describe('Project', () => {
       cy.get('[id="project-description"]').type(description);
 
       cy.xpath('//input[@type="submit"]').click();
-      
+     
 
       cy.get('a').invoke('text').should('include', nameP);
 
+     
    })
+
 })
