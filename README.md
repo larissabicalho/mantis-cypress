@@ -5,7 +5,7 @@ Replication package of the following paper:
 Title:
 Using ChatGPT to Detect Smells in End-to-End Tests
 
-AUTHORS: 
+AUTHORS: </br>
 Larissa de Cássia Nazaré Bicalho </br>
 Marco Túlio Valente </br>
 João Eduardo Montandon de Araújo Filho </br>
