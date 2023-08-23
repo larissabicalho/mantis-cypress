@@ -1,0 +1,145 @@
+Title,URL,SELECT
+Best Practices,https://docs.cypress.io/guides/references/best-practices,      T
+Identifying Code Smells in Cypress,https://codingitwrong.com/2020/10/09/identifying-code-smells-in-cypress.html,      T
+Cypress Best Practices,https://www.bigbinary.com/learn-qa-automation-using-cypress/cypress-best-practices,      T
+How To Avoid Code Smell in Cypress,https://medium.com/@earthctzn/cypress-testing-how-to-avoid-smelly-waits-a279ef789fc4,      T
+Cypress Best Practices,https://dev.to/cypress/cypress-best-practices-55j0,      T
+Best practices in test automation with Cypress,https://dev.to/walmyrlimaesilv/best-practices-in-test-automation-with-cypress-49ee,      T
+6 JavaScript UI Testing Anti-Patterns You Need to Avoid,https://javascript.plainenglish.io/6-javascript-ui-testing-anti-patterns-you-need-to-avoid-f77f9902ef9e,      T
+Cypress Intercept (Data Mocking) bad practice for functionality testing?,https://stackoverflow.com/questions/67279482/cypress-intercept-data-mocking-bad-practice-for-functionality-testing,      T
+Is it considered an anti-pattern for me to group Cypress test steps this way?,https://sqa.stackexchange.com/questions/45342/is-it-considered-an-anti-pattern-for-me-to-group-cypress-test-steps-this-way,F
+Why cypress tests use force if it's not recommended? #4507,https://github.com/JedWatson/react-select/issues/4507,T
+Page objects vs. App actions in Cypress,https://applitools.com/blog/page-objects-app-actions-cypress/,T
+Using Code Smells to Fix Flaky Cypress Tests,https://cypress.slides.com/cypress-io/code-smells,T
+Usage in Cypress,https://zendesk.github.io/laika/docs/usage-in-cypress/,T
+Cypress Studio - the underrated feature speeding up e2e testing,https://www.newline.co/@paigen11/cypress-studio-the-underrated-feature-speeding-up-e2e-testing--7bc4616b,F
+Solved: Angular RxJs Debounce Not Consistently Firing When Testing With Cypres,https://digitaldrummerj.me/cypress-angular-debounce/,T
+Using Code Smells to Fix Flaky Cypress Tests,https://airdepot.com/is-your-air-conditioner-blowing-stinky-air/,F
+Bad Bad Smell,https://www.tripadvisor.co.uk/ShowUserReviews-g55704-d3525512-r305928474-Anothai_Cuisine-Cypress_Texas.html,F
+Cypress.IO Shortcomings — Pattern or Die,https://www.lance.bio/2018/04/09/cypress-io-shortcomings-pattern-die/,F
+End-to-End Web Testing with Cypress: Explore techniques for automated,https://books.google.com.br/books?id=Er0YEAAAQBAJ&pg=PA136&lpg=PA136&dq=(%22cypress%22)+AND+(%22code+smell%22OR+%22bad+smell%22OR+%22anti-pattern%22OR+%22bad+practice%22)&source=bl&ots=CWf-sFpmEQ&sig=ACfU3U0u7FSN0oAE4hzROke4InKQbd_bdw&hl=pt-BR&sa=X&ved=2ahUKEwiQ9NbGtd31AhWHrpUCHdzPCJQ4ChDoAXoECCUQAw,F
+Task,https://runebook.dev/en/docs/cypress/api/commands/task,F
+Cypress,https://twitter.com/garybernhardt/status/1291120568377339904,F
+Ditch Page Objects and start applying App Actions,https://jonasdavila.com.br/index.php/2020/10/22/abandone-page-objects-e-comece-a-aplicar-app-actions/,T
+Cypress TX AC Repair,http://earthpowerac.com/ac-repair-cypress-tx/,F
+Cypress.IO,https://gitter.im/cypress-io/cypress?at=5fc6b43df01b216de2b0f242,F
+Cypress Best Practices,https://m.facebook.com/DevTeam504/videos/3087883211426844/?locale2=hi_IN,F
+Car Smells,https://www.joemyerstoyota.com/service/diagnosing-car-smells.htm,F
+"Cypress: Fix ""use UI to login"" anti-pattern",https://forge.softwareheritage.org/D3331?id=,T
+Distributed system observability: Instrument Cypress tests with OpenTelemetry,https://automationrhapsody.com/distributed-system-observability-instrument-cypress-tests-with-opentelemetry/,F
+Best Practises – Avoiding Code Smells,https://www.learnautomation.co.uk/2019/12/best-practises-avoiding-code-smells/,T
+Cypress-selectors,https://www.npmjs.com/package/cypress-selectors?activeTab=readme,F
+Task,https://docs.w3cub.com/cypress/api/commands/task,F
+"A Comprehensive Guide To JavaScript Design Patterns",https://www.lambdatest.com/blog/comprehensive-guide-to-javascript-design-patterns/,F
+Cypress – wait for button to be clickable,https://techinplanet.com/cypress-wait-for-button-to-be-clickable/,T
+Stackify,https://stackify.dev/385255-is-there-a-code-generator-for-cypress-testing-tool,F
+PART 4: RESET STATE DATA,https://glebbahmutov.com/cypress-workshop-basics/?p=04-reset-state,F
+Intro to Cypress Testing,https://frontend.turing.edu/lessons/module-3/intro-to-cypress-testing.html,F
+Cypress and Testing Library have contradicting best practices,https://spectrum.chat/testing-library/help/cypress-and-testing-library-have-contradicting-best-practices~2f526a05-8cb7-4e40-aa67-f0eeb1edac8a,T
+Holiday Inn Express & Suites Houston Nw - Hwy 290 Cypress,https://www.hurb.com/hotels/houston/holiday-inn-express-suites-houston-nw-hwy-290-cypress-HT-C2JS,F
+Florida History Online,https://www.unf.edu/floridahistoryonline/Bartram/January_1766/24jan1766.htm,F
+Modernizing a Legacy PHP Application,https://adrien.poupa.fr/modernizing-a-legacy-php-application/,F
+Is There A Code Generator For Cypress Testing Too,https://tutorialmeta.com/question/is-there-a-code-generator-for-cypress-testing-tool,F
+Cypress vs. Selenium: Compare test automation frameworks,https://searchsoftwarequality.techtarget.com/tip/Cypress-vs-Selenium-Compare-test-automation-frameworks,F
+CYPRESS CUCUMBER PREPROCESSOR UPDATE,https://thebrain.pro/blog/Cypress-Cucumber-Preprocessor-Update/,F
+-,https://johnnn.tech/q/testing-stripe-checkout-w-cypress/,F
+Is There A Code Generator For Cypress Testing Tool,https://gibe.digital/blog/5-tips-to-help-get-you-started-with-cypress/,F
+5 TIPS TO HELP GET YOU STARTED WITH CYPRESS,https://tipsfordev.com/in-cypress-intercept-in-test-doesn-t-work,F
+The Page Objects anti-pattern,https://www.reddit.com/r/softwaretesting/comments/7pvx5r/the_page_objects_antipattern/,T
+Cypress,http://www.apimirror.com/cypress/api/commands/exec,T
+"Testing Your Frontend’s JavaScript Code With Cypress.io",https://blog.cloudboost.io/testing-your-frontends-javascript-code-with-cypress-io-c9d9a7102137,T
+Good Advice for Bad Breath,https://aldertrailsdental.com/blog/good-advice-for-bad-breath/,F
+Cypress Tip: Don't Overuse the Visibility Assertion,https://iheartjs.dev/cypress-tip-dont-overuse-the-visibility-assertion/,T
+Cypress Oil,https://cpgworld.com/product/cypress-oil/,F
+End-to-End Testing with Cypress,https://deliciousbrains.com/cypress-testing/,F
+-,https://databasediaccesso.com/cypress/,F
+-,https://stackoverflow.gw-proxy.com/questions/62395434/testing-stripe-checkout-w-cypress,F
+Testing a Meteor app with Cypress,https://blog.meteor.com/testing-a-meteor-app-with-cypress-bfb3d3c6ed6f,F
+Unit testing APEX – 3 methods to bypass login (with Cypress.io),https://www.insum.ca/unit-testing-apex-3-methods-bypass-login-using-cypress-io/,F
+Fixing Cypress errors part 2: cannot find element due to assertion timing out,https://blog.hao.dev/fixing-cypress-errors-part-2-cannot-find-element-due-to-assertion-timing-out/,F
+Bluebird’s Bad-Practice Docs,https://itnext.io/bluebirds-bad-practice-docs-f9cc94b1af9,F
+Functional tests,https://docs.openrefine.org/fr/next/technical-reference/functional-tests,F
+"E2e acceptance testing with Cucumber, Cypress, Angular, Gitlab-CI, Docker compose, and Asciidoctor",https://colamda.de/blog/2020-08-02-Cucumber-Cypress-Angular-Gitlab-Docker-compose/,F
+-,https://issueexplorer.com/issue/cypress-io/cypress-grep/52,F
+Cypress Reviews & Product Details,https://www.g2.com/products/cypress/reviews,F
+How to Speed up Cypress Automation Tests,https://www.feldspartech.com/post/how-to-speed-up-cypress-automation-tests,T
+react-select Why cypress tests use force if it's not recommended? - TypeScript,https://gitanswer.com/react-select-why-cypress-tests-use-force-if-it-s-not-recommended-typescript-836227915,F
+When Good Beauty Products Smell Downright Bad,https://www.nytimes.com/2017/12/26/t-magazine/good-beauty-products-bad-smell.html,F
+BDD 101: WRITING GOOD GHERKIN,https://automationpanda.com/2017/01/30/bdd-101-writing-good-gherkin/,F
+cypress can't select authenticator inputs for @aws-amplify/ui-react - amplify-js,https://gitanswer.com/cypress-can-t-select-authenticator-inputs-for-aws-amplify-ui-react-684188945,F
+Cypress Sale Partnership,http://cypresssales.com/frugalismabfe/faeadc1431657.aspx,F
+Coming Soon!,https://www.examplefiles.net/cs/376656,F
+Cypress Oil,https://cpgnatural.com/product/cypress-oil/,F
+Method Men Body Wash Cedar and Cypress - 18 fl oz,https://www.target.com/p/method-men-body-wash-cedar-and-cypress-18-fl-oz/-/A-52735196,F
+Making end-to-end testing obsolete with Domain-Driven Design,https://pages.xebia.com/academy-webinar/domain-driven-design,F
+Cypress + LaunchDarkly (or any Feature Flag Tool),https://www.gerrypass.com/categories/cypress/,F
+Cypress - having to intercept and wait on http requests,http://5.9.10.113/67148842/cypress-having-to-intercept-and-wait-on-http-requests,F
+HOW TO TREAT BAD BREATH AFTER TOOTH EXTRACTION?,https://www.vpfamilydental.com/how-to-treat-bad-breath-after-tooth-extraction/,F
+North Florida Medical Center,https://www.mapquest.com/us/florida/north-florida-medical-center-379575450,F
+Cypress Task Undefined Even Though The Promise Is Returned,https://gitlab.com/gitlab-org/gitter/webapp/-/merge_requests/1641,F
+Cypress Task Undefined Even Though The Promise Is Returned,https://www.adoclib.com/blog/cypress-task-undefined-even-though-the-promise-is-returned.html,F
+Cypress errors,https://keybu.com/a/3517/cypress-errors,F
+Practical Ways to Write Better JavaScript,https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript/,F
+Accessing Shadow DOM inside a Web Component from Cypress,https://adambien.blog/roller/abien/entry/accessing_shadow_dom_insides_a,F
+Cypress-wait-until,https://githubmate.com/repo/NoriSte/cypress-wait-until/issues?cursor=Y3Vyc29yOnYyOpK5MjAyMC0wNS0xOVQwMTozNDowNy0wNDowMM4k_v-Z&pagination=prev&page=4,F
+The Top 4 Test Automation Anti-Patterns That Should Scare You,https://testguild.com/test-automation-anti-patterns/,F
+Login tests with Cypress,https://marcinstanek.pl/en/cypress-2,F
+Cypress Hooded Down Jacket,https://www.canadagoose.com/us/en/womens-cypress-hooded-down-jacket-628343409207.html?bvstate=pg:2/ct:r,F
+Using Effective Texture Mapping with the 3D Graphics Engine in Traveo™ Family S6J3200 Series,https://www.infineon.com/cms/dgdl/Infineon-AN210124_Using_Effective_Texture_Mapping_with_the_3D_Graphics_Engine_in_Traveo_Family_S6J3200_Series-ApplicationNotes-v02_00-EN.pdf?fileId=8ac78c8c7cdc391c017d0d2441c2622f&utm_source=cypress&utm_medium=referral&utm_campaign=202110_globe_en_all_integration-files,F
+"Gas and Sewer Line Repair, Maintenance, and Replacement",https://cooperplumbinghouston.com/services/gas-and-sewer-line-repairs/,F
+"Cypress: Fast, easy, and reliable testing for anything that runs in a browser",https://news.ycombinator.com/item?id=25381242,F
+Testing protected app sections the right way with Cypress custom commands!,https://www.webiny.com/blog/testing-protected-app-sections-the-right-way-with-cypress-custom-commands-c6bac254d861/?source=user_profile---------5-------------------------------,F
+Fit Pit Man Cypress Bergamot Deodorant,https://coconutandcotton.co.uk/fit-pit-man-cypress-bergamot-deodorant/,F
+How does sending data between UART and USB work in the UsbUart code example? ,https://community.cypress.com/t5/USB-Superspeed-Peripherals/How-does-sending-data-between-UART-and-USB-work-in-the-UsbUart/m-p/262657,F
+Cypress Electrician,https://www.abacusplumbing.net/electrician-cypress-tx/,F
+-,https://pretagteam.com/question/access-data-model-in-vuejs-with-cypress-application-actions,F
+"Is Cypress set to replace Selenium as the preferred tool for automating web applications (automated testing, Selenium WebDriver, browser automation, Cypress, SQA)?",https://www.quora.com/Is-Cypress-set-to-replace-Selenium-as-the-preferred-tool-for-automating-web-applications-automated-testing-Selenium-WebDriver-browser-automation-Cypress-SQA,F
+Cypress Essential Oil,https://www.youwish.nl/en/shop/cosmetics/making-lotion/essential-oil-en-3/cypress-essential-oil/,F
+Cypress Drain Cleaning - Drainage Problems,https://txcypresswaterheater.com/drain-cleaning.html,F
+How to E2E Test Your Application With Cypress,https://www.webtips.dev/how-to-e2e-test-your-application-with-cypress,F
+Flaky Tests: Getting Rid Of A Living Nightmare In Testing,https://www.smashingmagazine.com/2021/04/flaky-tests-living-nightmare/,F
+-,http://bostoncomputerschool.com/7fzuv/cypress-typescript-cucumber.html,F
+-,http://journeywithjustice.com/w3wehx/cypress-lodash.html,F
+-,http://bilgiticareti.com/wp-content/themes/twentynineteen/isvxelt/cypress-get-alias-value.html,F
+-,https://yourspacetoday.com/jodf5/cypress-dashboard-example.html,F
+-,https://gbgseniortech.com/wp-includes/vb4bnq/cypress-return-promise.html,F
+-,https://www.digimasia.com/wp-content/themes/U1BEBSRT/9dyo/do-not-assign-the-return-value-of-a-cypress-command.html,F
+-,https://hlopokdv.ru/bitrix/admin/zqfs98f/cypress-typescript-cucumber.html,F
+Cypress: Removing aliases which were set in before hooks,https://bleepcoder.com/cypress/247896124/removing-aliases-which-were-set-in-before-hooks,F
+-,http://megaproduction.ge/iqwbp/cypress-done-function.html,F
+-,https://grunn.in/8jbyo/cypress-skip-describe.html,F
+-,https://glodoku.com/x2eirj/cypress-wait-for-request.html,F
+-,https://newsrepublic24.com/0f2yd/cypress-return-promise.html,F
+Upload File with Cypress.io via Request,https://www.xsprogram.com/content/upload-file-with-cypressio-via-request.html,F
+Cypress Login,https://www.databaseportale.it/cypress-login/,F
+-,http://marathitechview.biz/jpysd,F
+-,https://wepython.cc/thread-5974862.htm,F
+-,http://ikincielmodam.biz/jpysd,F
+-,https://test.it-phenix.ru/g9etmd/react-useconstructor.html,F
+-,http://crpto-cash.connectchurchindia.in/5o1xzu/how-to-mask-the-scent-of-a-dog-in-heat.html,F
+-,http://nagarpalikabalaghat.com/32qve/cypress-function.html,F
+-,https://daobachdang.com/6pkwjt/using-class-in-cypress.html,F
+Quarkus keycloak. You can use it to implement authentication and authorization for your a,http://www.poems.best/9jx4e/quarkus-keycloak.html,F
+Annoying verbose Cypress browser console warning,https://githubmemory.com/repo/NicholasBoll/cypress-promise/issues/7,F
+-,http://massazher-pillow.biz/lmlis,F
+"The Cyclopedia of Biblical Literature, Vol",https://books.google.com.br/books?id=fc0UAAAAYAAJ&pg=PA322&lpg=PA322&dq=(%22cypress%22)+AND+(%22code+smell%22OR+%22bad+smell%22OR+%22anti-pattern%22OR+%22bad+practice%22)&source=bl&ots=4Pu8sqEAoE&sig=ACfU3U0prm05f-CKPlkpn55D19cjx-nePQ&hl=pt-BR&sa=X&ved=2ahUKEwjcw8jIv931AhVKqpUCHYLLAxA4eBDoAXoECAoQAw,F
+A Cyclopaedia of Biblical Literature: Aar-Hys,https://books.google.com.br/books?id=c3A_AAAAYAAJ&pg=PA322&lpg=PA322&dq=(%22cypress%22)+AND+(%22code+smell%22OR+%22bad+smell%22OR+%22anti-pattern%22OR+%22bad+practice%22)&source=bl&ots=EkzKl3988Q&sig=ACfU3U202fgJpZFXHxmtlXo3DfAeTrlZXg&hl=pt-BR&sa=X&ved=2ahUKEwjcw8jIv931AhVKqpUCHYLLAxA4eBDoAXoECAgQAw,F
+how to export function in typescript. Part 1 - Simple context with function components (t,http://triple3designs.com/baleu/how-to-export-function-in-typescript.html,F
+-,http://laniermobiltech.com/cwdib/angular-bypass-cors.html,F
+-,https://www.ooumph.com/ux24hqd/off-grid-florida.html,F
+-,http://trionstrade.biz/ypqmf,F
+-,http://trionstrade.biz/goaqx,F
+"Bitbucket pipelines environments. The second step will take this compressed file, publish",http://enprimerafila.biz/oahzh/bitbucket-pipelines-environments.html,F
+"Vue apollo cache. json For GraphQL-based application, there was an alternative to use Apol",http://ravibakery.com/u2b3vyww/vue-apollo-cache.html,F
+"A Cyclopedia of Biblical Literature,... Illustrated by Numerous ..., Volume 1",https://books.google.com.br/books?id=XJol7DyUcZwC&pg=PA322&lpg=PA322&dq=(%22cypress%22)+AND+(%22code+smell%22OR+%22bad+smell%22OR+%22anti-pattern%22OR+%22bad+practice%22)&source=bl&ots=OVfn7G-34m&sig=ACfU3U0yM4VRpHczOZap5Zp22FtDMgF5Vg&hl=pt-BR&sa=X&ved=2ahUKEwjw9f27wd31AhVgrJUCHdNSDIU4ggEQ6AF6BAgIEAM,F
+"A Cyclopedia of Biblical Literature,... Illustrated by Numerous ..., Volume 1",https://books.google.com.br/books?id=yeQJ_3vRWpUC&pg=PA322&lpg=PA322&dq=(%22cypress%22)+AND+(%22code+smell%22OR+%22bad+smell%22OR+%22anti-pattern%22OR+%22bad+practice%22)&source=bl&ots=qh3xUrZ_XA&sig=ACfU3U0gR4Vx58GPUzcwCvK4IuKGhbSOPQ&hl=pt-BR&sa=X&ved=2ahUKEwjw9f27wd31AhVgrJUCHdNSDIU4ggEQ6AF6BAgZEAM,F
+-,http://www.nabamparas.com/yomi/spiritual-meaning-of-smelling-sandalwood.htm,F
+-,http://valoriance-gestion.fr/ovabxidm/ruby-break-from-map.html,F
+-,http://careersboosters.biz/vkydk,F
+-,https://agentesdamudanca.com.br/overpopularly1846532.html,F
+-,https://rekienergy.com/pecem/vue-selector.html,F
+-,http://sea-west-villas.com/5kwei7y/cypress-typescript-cucumber.html,F
+-,http://pwholdings.biz/sugar-cane-alcohol-for-perfume,F
+Cypress get length of a table dynamically,https://www.tutorialguruji.com/react-js/cypress-get-length-of-a-table-dynamically/,F
+-,http://lgsfirm.com/7s06si/gitlab-dependency-proxy-invalid-reference-format.html,F
+MUWAQQAR.COM,http://muwaqqar.com/sh3rt/cypress-login-before-each-test.html,F
