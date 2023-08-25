@@ -37,7 +37,7 @@ npm install cypress --save-dev
 
 7. Run the command > `docker-compose.exe up -d`
 
-The docker-compose file stay in reposi
+The docker-compose file stay in repository
 
 8. After processing, if all goes well, the images will be downloaded and new containers created:
 
