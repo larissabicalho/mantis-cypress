@@ -1,8 +1,7 @@
 
 # Testes End-to-End using Cypress with Smell
 
-The purpose of this code is to perform end-to-end tests, in this case 6 tests with Smells found in the table below and 8 smells(Organizing Tests, Logging In, Controlling State, Selecting Elements, Assigning Return Values
-Visiting External Sites, Using after Or afterEach Hooks, Unnecessary Waiting, Web Servers and Setting a Global baseUrl) are documented at https://docs.cypress.io/guides/references/best-practices. 
+The purpose of this code is to perform end-to-end tests.
 
 ## Cypress Installation
 
@@ -31,23 +30,22 @@ npm install cypress --save-dev
 
 ![](https://i.imgur.com/Myxqwmv.png)
 
-5. Open a terminal and access the newly created directory: "C:/mantis"
 
-6. In the directory there will be the file **docker-compose.yml** (It is necessary to replace the ip's of the containers with the ip of the Machine)
+5. In the directory there will be the file **docker-compose.yml** (It is necessary to replace the ip's of the containers with the ip of the Machine)
 
-7. Run the command > `docker-compose.exe up -d`
+6. Run the command > `docker-compose.exe up -d`
 
-The docker-compose file stay in reposi
+The docker-compose file stay in repository
 
-8. After processing, if all goes well, the images will be downloaded and new containers created:
+7. After processing, if all goes well, the images will be downloaded and new containers created:
 
 ![](https://i.imgur.com/TPbVjVQ.png)
 
-9. To validate the creation and execution of the run the command `docker ps -a` and the containers will be available and running:
+8. To validate the creation and execution of the run the command `docker ps -a` and the containers will be available and running:
 
 ![](https://i.imgur.com/4pZ3IEQ.png)
 
-10. The Docker Desktop application will display the active containers as shown in the image:
+9. The Docker Desktop application will display the active containers as shown in the image:
 
 ![](https://i.imgur.com/tZfGGiZ.png)
 
