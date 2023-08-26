@@ -7,7 +7,6 @@ Using ChatGPT to Detect Smells in End-to-End Tests
 
 AUTHORS: </br>
 Larissa de Cássia Nazaré Bicalho </br>
-Marco Túlio Valente </br>
 João Eduardo Montandon de Araújo Filho </br>
-Lucas Francisco da Matta Vegi   
-
+Lucas Francisco da Matta Vegi </br>  
+Marco Túlio Valente
